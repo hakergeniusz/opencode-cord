@@ -1,0 +1,23 @@
+{
+  "name": "opencode-cord",
+  "version": "0.1.0",
+  "description": "OpenCode V2 control-plane plugin for the pi-cord Discord/Telegram gateway: /pi-cord start|stop|status|diag, status tools, and autostart lifecycle hooks",
+  "private": false,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@opencode/plugin": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest"
+  }
+}
